@@ -1,4 +1,4 @@
-Ideamart PHP Client API for sending and receiving SMS
+Ideamart PHP Wrapper for sending and receiving SMS
 =====================================================
 
 -src/ folder contains the library files to be used in a client application written in php.
