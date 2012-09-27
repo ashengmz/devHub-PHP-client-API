@@ -22,12 +22,12 @@ class SMSReceiver{
 		
 		// Mandatory fields may comment out if necessary.
 		if(!(isset(
-				$jsonRequest->version,		// You can comment out this line
-				$jsonRequest->applicationId,	// You can comment out this line
+				//$jsonRequest->version,		// You can comment out this line
+				//$jsonRequest->applicationId,	// You can comment out this line
 				$jsonRequest->sourceAddress,
 				$jsonRequest->message,
-				$jsonRequest->requestId,	// You can comment out this line
-				$jsonRequest->encoding		// You can comment out this line
+				//$jsonRequest->requestId,	// You can comment out this line
+				//$jsonRequest->encoding		// You can comment out this line
 				)))
 			$response = array('statusCode'=>'E1312',
 			 				  'statusDetail'=>'Request is Invalid.');
