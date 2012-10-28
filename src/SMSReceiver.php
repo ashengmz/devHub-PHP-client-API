@@ -64,7 +64,12 @@ class SMSReceiver{
 	}
 	
 	public function getMessage(){
-		return $this->message;
+
+	   $msg=$this->message;
+           // Only one space between words
+	   $msgs = preg_replace('/\s{2,}/',' ', $msg);
+	
+		return $msgs ;
 	}
 	
 	public function getRequestId(){
